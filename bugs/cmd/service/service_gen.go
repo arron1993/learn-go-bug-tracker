@@ -7,9 +7,9 @@ import (
 	prometheus "github.com/go-kit/kit/metrics/prometheus"
 	opentracing "github.com/go-kit/kit/tracing/opentracing"
 	http "github.com/go-kit/kit/transport/http"
-	endpoint "github.com/learn-go-bug-tracker/bugs/pkg/endpoint"
-	http1 "github.com/learn-go-bug-tracker/bugs/pkg/http"
-	service "github.com/learn-go-bug-tracker/bugs/pkg/service"
+	endpoint "github.com/arron1993/learn-go-bug-tracker/bugs/pkg/endpoint"
+	http1 "github.com/arron1993/learn-go-bug-tracker/bugs/pkg/http"
+	service "github.com/arron1993/learn-go-bug-tracker/bugs/pkg/service"
 	group "github.com/oklog/oklog/pkg/group"
 	opentracinggo "github.com/opentracing/opentracing-go"
 )

@@ -4,7 +4,7 @@ import (
 	"context"
 
 	endpoint "github.com/go-kit/kit/endpoint"
-	service "github.com/learn-go-bug-tracker/notificator/pkg/service"
+	service "github.com/arron1993/learn-go-bug-tracker/notificator/pkg/service"
 )
 
 // SendEmailRequest collects the request parameters for the SendEmail method.
